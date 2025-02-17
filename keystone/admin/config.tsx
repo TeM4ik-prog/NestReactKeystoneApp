@@ -1,7 +1,7 @@
 import React from "react";
 import { type AdminConfig } from '@keystone-6/core/types'
-import { CustomLogo } from './customLogo';
-import { CustomNavigation } from './customNavigation';
+import { CustomLogo } from './components/customLogo';
+import { CustomNavigation } from './components/customNavigation';
 
 export const components: AdminConfig['components'] = {
   Logo: CustomLogo,
